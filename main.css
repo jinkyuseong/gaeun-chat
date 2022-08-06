@@ -1,0 +1,53 @@
+body {
+    font-size:small;
+    background-color: rgb(250,250,250);
+}
+
+#loginBox {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#noname {
+    min-width: 300px;
+    max-width: 1000px;
+}
+
+#messageBox {
+    min-width: 300px;
+    max-width: 1000px;
+    height: 60%;
+    border-style: solid;
+    border-width: 1px;
+    overflow: auto;
+    background-color: white;
+}
+
+.error {
+    color: red;
+}
+
+.me {
+    color: rgb(30, 136, 70);
+    padding-left: 15px;
+}
+
+.other {
+    color: black;
+    padding-left: 15px;
+}
+
+.info {
+    color:rgb(120, 120, 120)
+}
+
+.me.title {
+    font-size:smaller;
+    padding-left: 0px;
+    margin-top: 5px;
+}
+
+.other.title {
+    font-size:smaller;
+    padding-left: 0px;
+    margin-top: 5px;
+}
